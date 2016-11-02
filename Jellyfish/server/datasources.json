@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "lb-mongo": {
+    "host": "192.168.59.103",
+    "port": 27017,
+    "url": "mongodb://lb-user:lb-pass@192.168.59.103:27017/lb-mongo",
+    "database": "lb-mongo",
+    "password": "lb-pass",
+    "name": "lb-mongo",
+    "user": "lb-user",
+    "connector": "mongodb"
   }
 }

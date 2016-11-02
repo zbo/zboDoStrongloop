@@ -33,7 +33,9 @@
     "public": false
   },
   "Widget": {
-    "dataSource": "db",
-    "public": true
+    "dataSource": "lb-mongo",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }
