@@ -1,0 +1,25 @@
+{
+  "name": "client",
+  "homepage": "https://github.com/zbo/zboDoStrongloop",
+  "authors": [
+    "zbo2 <zbo2@qq.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "d3": "^4.3.0",
+    "cikonss": "*",
+    "responsive-nav": "^1.0.39",
+    "react": "^15.3.2"
+  }
+}
