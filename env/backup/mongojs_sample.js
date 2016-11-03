@@ -4,7 +4,7 @@
 console.log("start init mongo db");
 var databaseUrl = "192.168.59.103:27017/lb-mongo";
 var collections = ["widget", "reports"]
-var mongojs = require("../Jellyfish/node_modules/mongojs")
+var mongojs = require("../../Jellyfish/node_modules/mongojs/index")
 var db = mongojs(databaseUrl,collections);
 console.log(db);
 var widget = db.collection('widget')
