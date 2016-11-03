@@ -12,7 +12,17 @@ MongoClient.connect(databaseUrl, function(err, db) {
     assert.equal(null, err);
     console.log("Connected correctly to server");
 
-    var collection = db.collection('documents');
-    collection.insertMany([{a : 1}, {a : 2}, {a : 3}]);
+    var collection = db.collection('Record');
+    collection.insertMany([
+        {
+            "sequence": 0,
+            "value": 1,
+            "id": "1"
+        },
+        {
+            "sequence": 1,
+            "value": 2,
+            "id": "2"
+        }]);
     db.close();
 });

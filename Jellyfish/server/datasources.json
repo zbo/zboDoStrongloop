@@ -1,8 +1,4 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  },
   "lb-mongo": {
     "host": "192.168.59.103",
     "port": 27017,

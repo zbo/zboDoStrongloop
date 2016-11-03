@@ -17,9 +17,8 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "d3": "^4.3.0",
-    "cikonss": "*",
-    "responsive-nav": "^1.0.39",
-    "react": "^15.3.2"
+    "react": "^15.3.2",
+    "angular": "^1.5.8",
+    "angular-nvd3": "^1.0.9"
   }
 }

@@ -14,22 +14,22 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "lb-mongo"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "lb-mongo",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "lb-mongo",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "lb-mongo",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "lb-mongo",
     "public": false
   },
   "Widget": {
@@ -37,5 +37,9 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "Record": {
+    "dataSource": "lb-mongo",
+    "public": true
   }
 }
